@@ -1,0 +1,133 @@
+* {
+	 appearance: none;
+    -moz-appearance: none; 
+    -webkit-appearance: none;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+a {
+	text-decoration:none;
+	color:black;
+}
+
+
+    .modal2 {
+	display: none;
+	z-index: 500;
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	justify-content:center;
+	align-items:center;
+	top: 0;
+	left: 0;
+	background-color: white;
+
+	
+}
+ .modal2 > div {
+ 	display:flex;
+ 	justify-content:center;
+ 	align-items:center;
+ 	width:600px;
+ 	height:500px;
+ 	border-color:black;
+	border-style:solid;
+	border-width:1px;
+	border-radius:40px;
+	font-size:23px;
+	font-weight:bold;
+ }
+ 
+ .modal2 > div div {
+ 	text-align:center;
+ }
+
+	.modal2 button {
+		width:100px;
+		height:40px;
+		border: 0;
+		background-color: #ca9e61;
+		font-size: 13px;
+		border-radius:4px;
+		margin-top:40px;
+	}
+	
+form div input[type="text"],input[type="password"] {
+	border-style:solid;
+	border-width:1px;
+	border-top-style:none;
+	border-left-style:none;
+	border-right-style:none;
+	
+}
+
+form {
+	width:100%;
+}
+
+header {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+header > img {
+	width:200px;
+	height:200px;
+}
+
+
+
+.tt {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+#aa {
+	margin-top:30px;
+}
+b {
+	width:100px;
+}
+
+header > p {
+	font-size:20px;
+	font-weight:bold;
+}
+
+
+input[type="text"]{
+	width:60%;
+	height:50px;
+}
+
+input[type="button"]{
+	width:60%;
+	height:50px;
+	border-style:none;
+	border-radius:30px;
+	margin-top:40px;
+	background-color:#00a1e1;
+	color:white;	
+	font-size:15px;
+	font-weight:bold;
+}
+
+input[type="password"]{
+	width:60%;
+	height:50px;
+}
+
+#main > div {
+	width:100%;
+}
+
+#main {
+	width:100%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	height:80vh;
+}

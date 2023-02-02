@@ -1,0 +1,82 @@
+    * {
+    font-family: 'Noto Sans KR', sans-serif;
+        appearance: none;
+    -moz-appearance: none; 
+    -webkit-appearance: none;
+    }
+    
+    #height {
+    	display:flex;
+    	justify-content:center;
+    	align-items:center;
+    	height:100vh;
+    }
+    
+    #h11 {
+    	text-align:center;
+    	margin-top:100px;
+    }
+    
+    h1 {
+    	text-align:center;
+    }
+    
+    #main {
+    	display:flex;
+    	justify-content:center;
+    	align-items:center;
+
+    }
+    
+    .main3 {
+    	margin-top:30px;
+		margin-bottom:30px;
+		font-size:20px;
+		font-weight:bold;
+    }
+    
+    #abc div {
+	width:25%;
+	text-align:center;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+i {
+	color:lightgreen;
+}
+
+
+
+#abc {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-wrap:wrap;
+	margin-bottom:50px;
+}
+
+    
+    button {
+    		width:200px;
+    		height:200px;
+        	border-radius:30px;
+    		border-style:none;
+    		margin-right:10px;
+    		margin-left:10px;
+    		color:white;
+    		background-color:#7ccfec;
+    		font-size:25px;
+    		font-weight:bold;
+    }
+
+	#imgdiv {
+		display:flex;
+		justify-content:center;
+		align-items:center;	
+	}
+    
+    #school {
+		width:300px;
+		height:300px;    
+    }
